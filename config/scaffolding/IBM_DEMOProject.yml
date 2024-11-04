@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+- name: JcDangerousPackage
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitBranch: master
 services:
 - serviceName: project.ibm_demo.integrations:helloWorld
   packages:
