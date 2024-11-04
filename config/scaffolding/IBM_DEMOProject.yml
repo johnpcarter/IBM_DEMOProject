@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
-- name: OpenWeatherClient
-  gitServerName: johnpcarter
-  gitUrl: https://github.com/rahuldemocenter
-  gitUsername: johnpcarter
-  gitBranch: main
 services:
 - serviceName: project.ibm_demo.integrations:helloWorld
   packages:
