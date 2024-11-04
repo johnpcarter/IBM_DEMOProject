@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+services:
+- serviceName: project.ibm_demo.integrations:helloWorld
+  packages:
+  - name: IBM_DEMOProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
