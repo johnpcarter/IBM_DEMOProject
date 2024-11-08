@@ -8,6 +8,7 @@ packages:
   gitUsername: johnpcarter
   gitBranch: main
 - name: JcDangerousPackage
+  version: "1.0"
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
@@ -19,11 +20,7 @@ services:
     version: "1.0"
   - name: JcDangerousPackage
     version: "1.0"
-- serviceName: jc.dangerous:suspiciousService
-  packages:
-  - name: JcDangerousPackage
-    version: "1.0"
-- serviceName: pub.utils:executeOSCommand
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.1969
